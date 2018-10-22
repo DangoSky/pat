@@ -5,13 +5,12 @@ public class Test1 {
 	public static void main(String args[]){
 		Scanner sc=new Scanner(System.in);
 		while(sc.hasNext()){
-				long a=sc.nextLong();
-				long b=sc.nextLong();
-				long sum=a+b;
-		   //   NumberFormat num=NumberFormat.getInstance();       //自动设置格式
-			    NumberFormat num=new DecimalFormat("###,###");     //手动设置格式
+			long a=sc.nextLong();
+			long b=sc.nextLong();
+			long sum=a+b;
+		      //NumberFormat num=NumberFormat.getInstance();       //鑷姩璁剧疆鏍煎紡
+		        NumberFormat num=new DecimalFormat("###,###");     //鎵嬪姩璁剧疆鏍煎紡
 		        System.out.println(num.format(sum));
 		}
-	
 	}
 }
