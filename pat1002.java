@@ -17,7 +17,7 @@ public class pat1002 {
 				double b=sc.nextDouble();
 				arr[a]+=b;
 			}
-		//	DecimalFormat df=new DecimalFormat("#.#");
+		//	DecimalFormat df=new DecimalFormat("#.0");
 			int s=0;
 	    	for(int i=0;i<1043;i++){
 				if(arr[i]!=0.0)  s++;
